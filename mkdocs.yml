@@ -1,4 +1,4 @@
-site_name: Template
+site_name: NMAP
 site_url: ""
 use_directory_urls: false
 
@@ -30,10 +30,18 @@ plugins:
 nav:
   - Home:
     - Quick Reference: index.md
-  - First Tab:
-    - Day 06 Lab - Ethernet LAN Switching: first-tab/day06lab.md
-    - Day 08 Lab - IPv4 Addresses: first-tab/day08lab.md
-    - Day 09 Lab - Interface Configuration: first-tab/day09lab.md
+    - Staying Organized: staying-organized.md
+    - Common Tools: common-tools.md
+  - NMAP:
+    - Intro to NMAP: NMAP/intro-to-nmap.md
+    - Host Discovery: NMAP/host-discovery.md
+    - Host and Port Scanning: NMAP/host-and-port-scanning.md
+    - Saving the Results: NMAP/saving-the-results.md
+    - Service Enumeration: NMAP/service-enumeration.md
+    - Nmap Scripting Engine: NMAP/nmap-scripting-engine.md
+    - Cheat Sheet: NMAP/cheat-sheet.md
+    - Targets: 
+      - Target: NMAP/target.md
   - Second Tab:
     - Quality of Life Settings: second-tab/guide-qol.md
     - Setting Security: second-tab/guide-security.md
